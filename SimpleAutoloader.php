@@ -41,7 +41,7 @@ class SimpleAutoloader{
     protected static $fileExt = '.php';
 
     public static function loader($className){
-        $filename = $sourcesFolder.$className . static::$fileExt;
+        $filename = static::$sourcesFolder.$className . static::$fileExt;
         if(file_exists($filename)){
             require($filename);
         }
