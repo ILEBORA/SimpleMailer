@@ -37,10 +37,11 @@ class SimpleAutoloader{
     /**
      * File extension as a string. Defaults to ".php".
      */
+    protected static $sourcesFolder = 'src/';
     protected static $fileExt = '.php';
 
     public static function loader($className){
-        $filename = $className . static::$fileExt;
+        $filename = $sourcesFolder.$className . static::$fileExt;
         if(file_exists($filename)){
             require($filename);
         }
