@@ -2,11 +2,11 @@
 /**
  * This is a simple example for sending a message using PHP's mail() function.
  */
- require '../SimpleAutoload.php';
+ require '../SimpleAutoloader.php';
  
  use \ILEBORA\SimpleMailer;
  
- //Create a new SimpleMailer instance and config
+ //Create a new SimpleMailer instance and set it up
  $mail = (new SimpleMailer())
 				->to("RECEPIENT EMAIL")
 				->from("SENDER EMAIL")
