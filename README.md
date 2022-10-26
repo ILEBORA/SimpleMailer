@@ -9,7 +9,7 @@
 ```php
 <?php
 
- require 'SimpleAutoload.php'; //Require the Simple Autoloader
+ require 'SimpleAutoloader.php'; //Require the Simple Autoloader
  
  use \ILEBORA\SimpleMailer; //Import PHPMailer classes into the global namespace
  
