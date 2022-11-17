@@ -27,6 +27,8 @@ namespace ILEBORA;
 /**
  * ILEBORA Simple PHP Mailer
  * 
+ * https://github.com/ILEBORA/SimpleMailer
+ *
  * Just a simple mailer
  *
  * @package SimpleMailer
